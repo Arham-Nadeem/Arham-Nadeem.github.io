@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Arham.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Arham.com</h1>
+        <img src="hello1.jpg" alt="Hello in different languages" class="hello-image">
+    </header>
+    <main class = "index-main">
+        <section id="about">
+            <img src="profilePIC.jpg" alt="Arham Nadeem" class="profile-pic">
+            <div class="description">
+                Welcome to my little portfolio project!
+                <br><br>
+                My name is Arham Nadeem, and I'm a passionate junior at the University of Illinois at Chicago, majoring in Computer Science with a concentration in Software Engineering. Growing up in the vibrant city of Chicago, I've always been fascinated by technology and its potential to transform lives. This curiosity led me to immerse myself in coding and programming, where I've honed my skills in languages such as Python, C, C++, HTML, and JavaScript.
+                <br><br>
+                I graduated from Frederick Von Steuben Metropolitan Science Center, where my interest in technology first took root. My journey began with Python, a language that opened my eyes to the endless possibilities of coding. As I delved deeper, learning additional languages, I became captivated by the way simple blocks of code could seamlessly integrate to create complex, dynamic systems that power the world around us. Throughout my academic journey at UIC, I've undertaken rigorous coursework that has strengthened my problem-solving abilities and technical expertise.
+                <br><br>
+                I am driven by a desire to create innovative solutions and make a positive impact through technology. My goal is to secure an internship in Software Engineering, Data Science, or tech-related research where I can apply my knowledge, learn from industry professionals, and contribute to groundbreaking projects. I am a quick learner, a proactive problem solver, and a collaborative team player who thrives in dynamic environments.
+                <br><br>
+                Below, you can find more details about the relevant courses I've taken and the programming languages I excel in. For my resume, contact information, or to learn more about my journey, please scroll down. Thank you for visiting, and I hope you have a fantastic day! Let's make every moment count!
+            </div>
+        </section>
+        <section class="divider">
+            <h2>Relevant Courses Taken</h2>
+            <div class="courses-container">
+                <div class="courses-taken">
+                    <ul>
+                        <li>CS 111: Program Design I</li>
+                        <li>CS 141: Program Design II</li>
+                        <li>CS 151: Mathematical Foundations of Computing</li>
+                        <li>CS 211: Programming Practicum</li>
+                        <li>CS 251: Data Structures & Algorithms</li>
+                        <li>IE 342: Probability & Stat for Engineering</li>
+                        <li>CS 261: Machine Organization</li>
+                        <!-- Add more courses as needed -->
+                    </ul>
+                </div>
+                <div class="languages-known">
+                    <h3>Languages I Know</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                        <!-- Add more languages as needed -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="project-highlights">
+            <h2>Project Highlights</h2>
+            <div class="projects-container">
+                <img src="projHL.png" alt="Project Highlights" class="project-image">
+                <div class="projects-list" id="projects-list">
+                    <div class="project-icons">
+                        <span class="project-icon" onclick="showGames()">🎮 Games</span>
+                        <span class="project-icon" onclick="showDataAnalysis()">📊 Data Analysis</span>
+                        <span class="project-icon" onclick="showInteractivePrograms()">💻 Interactive Programs</span>
+                    </div>
+                    <ul id="project-content">
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="buttons">
+            <button onclick="openResume()">View My Resume</button>
+            <button onclick="window.location.href='personality.html'">Learn More About My Personality</button>
+            <button onclick="window.location.href='contact.html'">Get My Contact Information</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
