@@ -20,7 +20,7 @@ main {
 }
 
 .contact-main {
-    background-image: url('contactBG.jpg'); /* Use the local image file */
+    background-image: url('contactBG.jpg'); 
     background-size: cover;
     background-position: center;
     padding: 40px 20px;
@@ -32,7 +32,7 @@ main {
     padding: 20px;
     max-width: 600px;
     border: 6px solid #233445; /* Square border */
-    border-radius: 15px; /* Optional: Rounded corners */
+    border-radius: 15px; /*  Rounded corners */
     background-color: rgba(255, 178, 115, 0.911); /* Background color */
 }
 
@@ -56,7 +56,7 @@ main {
 }
 
 .personality-main {
-    background-image: url('floral.avif'); /* Use the local image file */
+    background-image: url('floral.avif'); 
     background-size: small;
     background-position: center;
     padding: 40px 20px;
@@ -68,7 +68,7 @@ main {
     padding: 20px;
     max-width: 85%; /* width for whitespace */
     border: 6px solid #233445; /* Square border */
-    border-radius: 15px; /* Optional: Rounded corners */
+    border-radius: 15px; /*  Rounded corners */
     background-color: rgba(255, 178, 115, 0.911); /* Background color */
 }
 
@@ -118,12 +118,12 @@ main {
     margin-bottom: 40px;
     padding: 20px;
     border: 4px solid #233445; /* Square border */
-    border-radius: 15px; /* Optional: Rounded corners */
+    border-radius: 15px; /*  Rounded corners */
     background-color: rgba(255, 178, 115, 0.911); /* Background color */
 }
 
 .personality-image {
-    max-width: 60%; /* Adjust size as needed */
+    max-width: 60%; 
     height: auto;
     margin: 20px 0;
 }
@@ -143,7 +143,7 @@ main {
     content: '★';
     position: absolute;
     left: 0;
-    color: #233445; /* Adjust star color as needed */
+    color: #233445; 
     font-size: 1.5 em;
 }
 
@@ -155,7 +155,7 @@ main {
 
 .sub-bullet li:before {
     content: '•';
-    color: #233445; /* Adjust bullet color as needed */
+    color: #233445; 
     font-size: 1em;
     position: absolute;
     left: 25%;
@@ -173,23 +173,23 @@ main {
     border-radius: 45%;
     margin: 20px auto; /* Center the image */
     display: block;
-    border: 5px solid white; /* Optional: Add a white border for better appearance */
+    border: 5px solid white; /* white border for better appearance */
 }
 
 
 .description {
-    font-family: 'Montserrat', sans-serif; /* Apply the new font */
+    font-family: 'Montserrat', sans-serif; 
     font-size: 1.2em;
     margin: 20px auto;
     padding: 20px;
     max-width: 750px;
     border: 4px solid #233445; /* Square border */
-    border-radius: 15px; /* Optional: Rounded corners */
+    border-radius: 15px; /* Rounded corners */
     background-color: rgba(255, 178, 115, 0.911); /* Background color */
 }
 
 .index-main {
-    background-image: url('floral.avif'); /* Use the local image file */
+    background-image: url('floral.avif'); 
     background-size: small;
     background-position: center;
     padding: 40px 20px;
@@ -206,7 +206,7 @@ main {
     background-color: #233445; /* Blue */
     color: white;
     padding: 20px;
-    margin: 0; /* Remove margin to avoid gaps */
+    margin: 0; /* Removed margin to avoid gaps */
 }
 
 .courses-container {
@@ -223,7 +223,7 @@ main {
     margin: 10px;
     padding: 20px;
     border: 4px solid #233445; /* Square border */
-    border-radius: 15px; /* Optional: Rounded corners */
+    border-radius: 15px; /* Rounded corners */
     background-color: rgba(255, 178, 115, 0.911); /* Background color */
 }
 
@@ -258,8 +258,8 @@ main {
 }
 
 .project-image {
-    height: 620px; /* Increase the size */
-    max-width: 320px; /* Adjust size as needed */
+    height: 620px; 
+    max-width: 320px; 
     margin-right: 10px;
 
 }
@@ -269,7 +269,7 @@ main {
     margin: 10px;
     padding: 20px;
     border: 4px solid #233445; /* Blue border */
-    border-radius: 15px; /* Optional: Rounded corners */
+    border-radius: 15px; /* Rounded corners */
     background-color: rgba(255, 178, 115, 0.911); /* Background color */
     text-align: left;
 }
