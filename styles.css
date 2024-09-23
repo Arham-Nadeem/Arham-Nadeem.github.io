@@ -167,15 +167,32 @@ main {
     margin: 0;
 }
 
-.profile-pic {
-    width: 375px; /* Increase the size */
-    height: 350px; /* Increase the size */
-    border-radius: 45%;
-    margin: 20px auto; /* Center the image */
-    display: block;
-    border: 5px solid white; /* white border for better appearance */
+.profile-container {
+    position: relative;
+    width: 700px; /* Frame size */
+    height: 450px; /* Frame size */
+    margin: 20px auto;
 }
 
+.frame-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.profile-pic {
+    position: absolute; /* Absolute positioning to adjust its location */
+    top: 10%; /* Center the image vertically */
+    left: 50%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Ensure it's perfectly centered horizontally */
+    width: 310px; /* Image size */
+    height: 350px; /* Image size */
+    border-radius: 45%; /* Rounded corners */
+    border: 5px solid white; /* White border */
+}
 
 .description {
     font-family: 'Montserrat', sans-serif; 
